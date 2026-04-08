@@ -11,4 +11,4 @@ if not exist "%VENV_PYTHON%" (
 )
 
 cd /d "%DANN_DIR%"
-"%VENV_PYTHON%" -m src.main %*
+"%VENV_PYTHON%" dann.py %*
